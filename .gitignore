@@ -1,0 +1,63 @@
+# === Environnements Python ===
+venv/
+env/
+.venv/
+ENV/
+
+# === Fichiers compilés Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Fichiers temporaires / caches ===
+*.log
+*.pot
+*.pyc
+*.pyo
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+*.idea/
+*.vscode/
+.cache/
+.ipynb_checkpoints/
+
+# === Virtual environment / dépendances ===
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === Build / distribution ===
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# === Données ou sorties ===
+data/
+output/
+logs/
+results/
+models/
+checkpoints/
+
+# === Tests et coverage ===
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+junit.xml
+
+# === Docker ===
+*.pid
+*.seed
+*.bak
+*.tar
+*.gz
+*.zip
+
+# === Variables d’environnement ===
+.env
+.env.*
